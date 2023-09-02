@@ -23,6 +23,7 @@ public class Server {
             logger.severe("Server has started...");
             logger.info("Waiting for connection ...");
 
+
         }catch (IOException e) {
             throw new ChatAppException();
         }
